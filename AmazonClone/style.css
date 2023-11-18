@@ -1,0 +1,316 @@
+* {
+    margin:0;
+    font-family: Arial;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+a, ul{
+    text-decoration: none;
+    list-style: none;
+}
+
+.option-nav a{
+    color: #ffffff;
+}
+
+.navbar {
+    height: 60px;
+    background-color: #131921;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+/* box-one */
+.nav-logo{
+    height:50px;
+    width: 115px;
+    margin: 0px;
+}
+
+.logo{
+    background-image: url("img/amazon_logo.png");
+    height:50px;
+    width:100px;
+    background-size: cover;
+    margin-left: 15px;
+}
+
+.border{
+    border: 1.7px solid transparent;
+}
+
+.border:hover{
+    border: 1.7px solid #ffffff;
+    border-radius: 2px;
+}
+
+/* box-two */
+.address-icon{
+    display: flex;
+}
+
+.address-1{
+    color: #cccccc;
+    font-size: 0.8rem;
+    padding-left: 17.4px;
+}
+
+.address-2{
+    font-size: 1rem;
+    margin-left: 5px;
+}
+
+/* box-three */
+.nav-search{
+    display: flex;
+    background-color: #F3A847;
+    width: 50%;
+    height:45px;
+    border-radius: 5px;
+    justify-content: space-evenly;
+}
+
+.nav-search:hover{
+    border: 3px solid #F3A847 ;
+}
+
+.search-select{
+    background-color:#d4d4d4;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    text-align: center;
+    width: 55px;
+}
+
+.search-icon{
+    background-color: #F3A847;
+    width: 50px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.3rem;
+    color: #000000;
+}
+
+.search-input{
+    width:840px;
+}
+
+/* box-four & five */
+.nav-small{
+    font-size: 0.7rem;
+}
+
+.nav-big{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/* box-six */
+.nav-cart i{
+    font-size:30px; 
+}
+
+.nav-cart{
+    margin-right: 15px;
+}
+
+/* 2nd-navbar */
+
+.sec-navbar{
+    width:100%;
+    height:40px;
+    background-color: #232F3E;
+    display: flex;
+    color:#ffffff;
+    align-items: center;
+}
+
+.all-item{
+    width: 60px;
+    height:40px;
+    margin-left: 15px;
+    margin-right: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.all-item i{
+    font-size: 22px;
+}
+
+.all-item a{
+    color:white;
+}
+
+.option-items{
+    display: flex;
+}
+
+.option-items .option-nav{
+    padding: 8px 12px;
+    height: 40px;
+}
+/* second navbar finished */
+
+.hero-section{
+    background-color: #e3e6e6;
+    padding: 0px 7.5%;
+    height: 550px;
+}
+.main-body{
+    background-image: url("img/game-bg.jpg");
+    background-size: contain;
+    margin: 0 10px;
+    height: 600px;
+    width: 100%;
+}
+/* background and padding ends*/
+
+/* shop-sections starts */
+
+.shop-section{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e3e6e6;
+}
+
+.box{
+    height: 420px;
+    width:23%;
+    background-color: #ffffff;
+    padding: 20px 10px 15px 10px;
+    margin-top: 15px;;
+}
+
+.box-img{
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:80%;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box1-img{
+    background-image: url("img/personal-health.jpg");
+}
+
+.box2-img{
+    background-image: url("img/gaming-pc.jpg");
+}
+
+.box3-img{
+    background-image: url("img/beauty-picks.jpg");
+}
+
+.box4-img{
+    background-image: url("img/.jpg");
+}
+
+.box4-img{
+    background-image: url("img/sign-in.jpg");
+}
+
+.box5-img{
+    background-image: url("img/school.jpg");
+}
+
+.box6-img{
+    background-image: url("img/home.jpg");
+}
+
+.box7-img{
+    background-image: url("img/electronics.jpg");
+}
+
+.box8-img{
+    background-image: url("img/toy.jpg");
+}
+
+.see-more{
+    margin-top: 10px;
+}
+.see-more a{
+    color:#007185;
+}
+
+.shop-now{
+    margin-top: 10px;
+}
+.shop-now a{
+    color:#007185;
+}
+
+.sign-in{
+    color:#ffffff;
+    background-color: #F3A847;
+    height: 25px;
+    text-align: center;
+    padding-top: 3px;;
+}
+.sign-in a{
+    color:#007185;
+
+}
+
+/* footer */
+.copyright{
+    background-color:#232F3E;
+    color: #ffffff;
+    height:100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Add this CSS at the end of your existing CSS */
+
+/* Responsive Header */
+@media screen and (max-width: 768px) {
+    .nav-logo {
+        width: 90px;
+    }
+
+    .search-select {
+        width: 45px;
+    }
+
+    .search-input {
+        width: 720px;
+    }
+
+    .nav-cart i {
+        font-size: 24px;
+    }
+
+    .option-items {
+        display: none;
+    }
+
+    .all-item {
+        display: none;
+    }
+}
+
+/* Responsive Shop Boxes */
+@media screen and (max-width: 768px) {
+    .box {
+        width: 48%;
+        margin: 10px 1%;
+    }
+}
+
+/* Responsive Footer */
+@media screen and (max-width: 768px) {
+    .copyright {
+        height: 60px;
+        font-size: 14px;
+    }
+}

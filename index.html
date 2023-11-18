@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sudeep Silwal | Home </title>
+  <link rel="icon" href="./assets/pageicon_pic.png" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="mediaqueries.css" />
+</head>
+
+<body>
+  <nav id="desktop-nav">
+    <div class="logo">Sudeep Silwal</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Sudeep Silwal</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section-pic-container">
+      <img src="./assets/profile-pic.png" alt="Sudeep Silwal profile picture" />
+    </div>
+    <div class="section-text">
+      <p class="section-text-p1">Hello, I'm</p>
+      <h1 class="title">Sudeep Silwal</h1>
+      <p class="section-text-p2">I am a <span id="element"></span></p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./assets/resume-example.pdf')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/facebook_icon.png" alt="Facebook " class="icon" onclick="location.href='https://facebook.com/thesudeepsilwal'" />
+        <img src="./assets/instagram_icon.png" alt="Instagram" class="icon" onclick="location.href= 'https://instagram.com/thesudeepsilwal'" />
+        <img src="./assets/twitter_icon.jpg" alt="Twitter" class="icon" onclick="location.href='https://twitter.com/thesudeepsilwal'" />
+        <img src="./assets/linkedin_icon.png" alt="LinkedIn" class="icon" onclick="location.href='https://linkedin.com/in/sudeepsilwal'" />
+        <img src="./assets/github_icon.png" alt="Github" class="icon" onclick="location.href='https://github.com/SudeepSilwal'" />
+        <img src="./assets/youtube_icon.png" alt="Youtube" class="icon" onclick="location.href='https://youtube.com/@thesudeepsilwal'" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section-text-p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section-pic-container">
+        <img src="./assets/about_pic.jpg" alt="Profile picture" class="about-pic" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience.png" alt="Experience icon" class="icon" />
+            <h3>Experience</h3>
+            <p>2+  Months <br>Frontend Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education.png" alt="Education icon" class="icon" />
+            <h3>Education</h3>
+            <p>Not  <br />Yet</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+            reprehenderit et laborum, rem, dolore eum quod voluptate
+            exercitationem nobis, nihil esse debitis maxime facere minus sint
+            delectus velit in eos quo officiis explicabo deleniti dignissimos.
+            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+            reiciendis ea magnam? Nulla, impedit fuga!
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'" />
+  </section>
+  <section id="experience">
+    <p class="section-text-p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>HTML</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>CSS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Beginner</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Nothing</h3>
+                <p>Nothing</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Nothing</h3>
+                <p>Nothing</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark.png" alt="Experience icon" class="icon" />
+              <div>
+                <h3>Nothing</h3>
+                <p>Nothing</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'" />
+  </section>
+  <section id="projects">
+    <p class="section-text-p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/AmazonClone.png" alt="Project 1" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">#1. Amazon Clone</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='AmazonClone/'">
+              Live Demo
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/SudeepSilwal/AmazonClone'">
+              Source Code
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/EmailValidator.jpeg" alt="Project 2" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">#2. Email Validator</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='EmailValidator/'">
+              Live Demo
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/SudeepSilwal/EmailValidator/'">
+              Source Code
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/BasicCalculator.jpeg" alt="Project 3" class="project-img" />
+          </div>
+          <h2 class="experience-sub-title project-title">#3. Basic Calculator</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='BasicCalculator/'">
+              Live Demo
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/SudeepSilwal/BasicCalculator'">
+              Source Code
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'" />
+  </section>
+  <section id="contact">
+    <p class="section-text-p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/facebook_icon.png" alt="Facebook icon" class="icon contact-icon" />
+        <p><a href="https://www.facebook.com/thesudeepsilwal/">Facebook</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/instagram_icon.png" alt="Instagram icon" class="icon contact-icon" />
+        <p><a href="https://www.instagram.com/thesudeepsilwal/">Instagram</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin_icon.png" alt="LinkedIn icon" class="icon contact-icon" />
+        <p><a href="https://www.linkedin.com/in/sudeepsilwal/">LinkedIn</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/email_icon.png" alt="Email icon" class="icon contact-icon email-icon" />
+        <p><a href="mailto:thesudeepsilwal@gmail.com">thesudeepsilwal@gmail.com</a></p>
+      </div>
+      
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Conjtact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Sudeep Silwal. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <!-- Setup and start animation! -->
+    <script>
+      var typed = new Typed('#element', {
+          strings: ['Student,', 'Coder,', 'Web Developer,', 'Learner,', 'Basic Editor.'],
+          typeSpeed: 50,
+          loop: true, // Enable looping
+          backSpeed: 25, // Speed of erasing characters when looping
+          backDelay: 1500, // Delay before starting to erase when looping
+      });
+  </script>
+</body>
+</html>

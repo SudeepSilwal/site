@@ -1,0 +1,20 @@
+h1{
+text-align: center;
+margin: 20px 0px;
+}
+
+.mx-auto{
+    margin: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+.items-center{
+    align-items: center;
+}

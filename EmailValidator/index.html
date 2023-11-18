@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Email Validator | Home</title>
+    <link rel="icon" href="./img/email.svg" type="image/x-icon">
+    <link rel="stylesheet" href="CSS/style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="img/email.svg" alt="email icon">
+            <span>S.Validate</span> </div>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Log In</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="container">
+            <h1>Enter The Email To Validate</h1>
+            <p>Know that the E-mail exists or not...</p>
+            <form action="/submit" method="post">
+            
+                <!-- Email input -->
+                <input placeholder="Enter an email to validate" type="" id="email" class="inputdes email" name="email" required>
+                <br><br>
+
+                <!-- Submit button -->
+                <input type="submit" value="Submit" id="submitBtn" class="btn">
+              </form>
+        </div>
+        <div class="container">
+            <h2>Your Results:</h2>
+            <div id="resultCont">
+            </div>
+        </div>
+    </main>
+    <footer>
+        Copyright &copy; S.validate 2023 | All Rights Reserved
+    </footer>
+    <script src="JS/script.js"></script>
+</body>
+</html>
