@@ -1,0 +1,153 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.header {
+    height: 20vh;
+    margin-top: 5vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.winnerMsg {
+    height: 6vh;
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    height: 70vh;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+    gap: 5vmin;
+}
+
+.scoreBoard {
+    display: flex;
+    justify-content: space-between;
+    width: 59vmin;
+    margin: 2.5vh 0;
+    height: 5vh;
+}
+
+.playerScore {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5px;
+    height: 2vh;
+}
+
+.pl {
+    width: 18vmin;
+    margin-bottom: 5vh;
+    height: 4.8vh;
+    text-align: center;
+    padding: 0;
+    border: 2px solid black;
+    border-radius: 5px;
+    font-weight: 600;
+    padding: 5px 2px;
+}
+
+.score {
+    font-size: 2vmax;
+    font-weight: 600;
+    margin: 2vh 0;
+}
+
+.game {
+    height: 65vmin;
+    width: 65vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 19vmin;
+    width: 19vmin;
+    border-radius: 0.5rem;
+    font-size: 12vmin;
+    border: 2px solid #14213d;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.box:hover {
+    transform: scale(1.05);
+    background-color: #f0f0f0;
+}
+
+.rst-btn, #nw-btn {
+    height: 10vmin;
+    width: 20vmin;
+    font-size: 3vmin;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.rst-btn:hover, #nw-btn:hover {
+    transform: scale(1.1);
+    background-color: #d3d3d3;
+}
+
+.rst-btn {
+    margin-bottom: 5vmax;
+}
+
+.none {
+    display: none;
+}
+
+.cl-1 {
+    color: #d62828;
+}
+
+.cl-2 {
+    color: #000000;
+}
+
+#btn{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2vmax;
+}
+
+#clr-btn{
+    height: 10vmin;
+    width: 20vmin;
+    font-size: 3vmin;
+    border-radius: 0.25rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+    margin-bottom: 5vmax;
+}
